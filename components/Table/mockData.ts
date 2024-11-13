@@ -1,0 +1,58 @@
+import { IJob } from './types';
+
+export const initialData: IJob[] = [
+  {
+    id: 1,
+    jobTitle: 'Frontend Developer',
+    company: 'Tech Corp',
+    link: 'https://techcorp.com/jobs/frontend-dev',
+    contact: 'recruiter@techcorp.com',
+    applicationDate: '2024-09-01',
+    status: 'Aguardando',
+    resumeUsed: 'Currículo V1',
+    source: 'LinkedIn',
+    location: 'Remoto',
+    salary: 'R$10.000,00',
+    expectedFeedbackDate: '2024-09-15',
+    notes: 'Processo iniciado via LinkedIn',
+    processStage: 'Envio de CV',
+    priority: 'Alta',
+    documentsSent: ['CV.pdf', 'CoverLetter.pdf'],
+    processHistory: [
+      {
+        id: 1,
+        processName: 'Envio de CV',
+        status: 'Enviado',
+        observation: 'Currículo enviado por e-mail.',
+        date: '2024-09-01',
+      },
+    ],
+  },
+  {
+    id: 2,
+    jobTitle: 'Backend Developer',
+    company: 'Data Solutions',
+    link: 'https://datasolutions.com/careers/backend-dev',
+    contact: 'hr@datasolutions.com',
+    applicationDate: '2024-08-25',
+    status: 'Entrevista',
+    resumeUsed: 'Currículo V2',
+    source: 'Indeed',
+    location: 'São Paulo',
+    salary: 'R$12.000,00',
+    expectedFeedbackDate: '2024-09-10',
+    notes: 'Entrevista técnica agendada',
+    processStage: 'Entrevista Técnica',
+    priority: 'Média',
+    documentsSent: ['CV.pdf', 'CoverLetter.pdf'],
+    processHistory: [
+      {
+        id: 2,
+        processName: 'Envio de CV',
+        status: 'Enviado',
+        observation: 'Currículo enviado por e-mail.',
+        date: '2024-09-01',
+      },
+    ],
+  },
+];
