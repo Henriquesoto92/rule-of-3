@@ -5,8 +5,8 @@ import { ColorSchemeScript, MantineProvider } from '@mantine/core';
 import { theme } from '@/theme';
 
 export const metadata = {
-  title: 'MyApplyMap',
-  description: 'Seu guia de candidaturas',
+  title: 'Regra de 3',
+  description: 'Mini Projeto',
 };
 
 export default function RootLayout({ children }: { children: any }) {
